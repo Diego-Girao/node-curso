@@ -1,14 +1,17 @@
 {
-  "name": "node-curso",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Diego-Girao/node-curso.git",
-  "author": "diegogirao <diegoramiro25@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  }
+	"name": "node-curso",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/Diego-Girao/node-curso.git",
+	"author": "diegogirao <diegoramiro25@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"dependencies": {
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	}
 }
